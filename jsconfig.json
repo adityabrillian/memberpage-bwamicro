@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "module": "commonjs",
+        "target": "esnext"
+    },
+    "exclude": ["node_modules"], //agar saat ctrl+space tidak kebawa sehingga tidak berat,
+    "include": ["src/**/*"] // untuk mengambil semua folder dlm src dan file
+}
